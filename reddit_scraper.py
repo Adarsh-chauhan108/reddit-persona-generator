@@ -2,6 +2,7 @@
 Reddit Scraper Module
 Handles authentication and data extraction from Reddit using PRAW.
 """
+
 import os
 
 import logging
