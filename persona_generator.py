@@ -2,6 +2,7 @@
 Persona Generator Module
 Uses OpenAI API to analyze Reddit data and generate user personas.
 """
+
 import os
 import logging
 import openai
