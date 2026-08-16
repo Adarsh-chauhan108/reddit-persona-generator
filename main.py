@@ -7,7 +7,6 @@ import argparse
 import os
 import sys
 from dotenv import load_dotenv
-
 from reddit_scraper import RedditScraper
 from persona_generator import PersonaGenerator
 from utils import setup_logging, validate_username
