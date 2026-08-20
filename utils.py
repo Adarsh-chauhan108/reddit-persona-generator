@@ -55,7 +55,7 @@ def validate_username(username: str) -> bool:
     if username.startswith('u/'):
         username = username[2:]
     
-    # Reddit username rules:
+    # Reddit username rules
     # - 3-20 characters
     # - Letters, numbers, underscore, hyphen
     # - Cannot start/end with underscore
