@@ -32,7 +32,7 @@ class PersonaGenerator:
         if not user_data:
             return "No data available to generate persona."
         
-        # Prepare data for analysis
+        
         content_summary = self._prepare_content_summary(user_data)
         
         # Create the prompt
