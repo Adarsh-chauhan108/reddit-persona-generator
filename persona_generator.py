@@ -68,7 +68,7 @@ class PersonaGenerator:
         except Exception as e:
             logger.error(f"Error generating persona: {e}")
             return f"Error generating persona: {str(e)}"
-    
+    # prepare data for analysis
     def _prepare_content_summary(self, user_data: List[Dict]) -> str:
         """
         Prepare a summary of user's content for analysis.
