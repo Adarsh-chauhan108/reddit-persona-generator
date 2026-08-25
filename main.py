@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """
 Reddit Persona Generator - Main Entry Point
 Analyzes a Reddit user's posts and comments to generate a detailed persona.
